@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\ola0206\OneDrive - Vestfold og Telemark fylkeskommune\eclipse-workspace\CountdownToTimeOfDay\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="3" lineNum="13" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="3" lineNum="14" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="4" lineNum="19" pc="268435479" symbol="onStart"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="5" lineNum="24" pc="268435484" symbol="onStop"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="5" lineNum="25" pc="268435488" symbol="onStop"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="5" lineNum="26" pc="268435498" symbol="onStop"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="5" lineNum="27" pc="268435505" symbol="onStop"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="5" lineNum="28" pc="268435517" symbol="onStop"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="6" lineNum="34" pc="268435533" symbol="onBackgroundData"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="6" lineNum="35" pc="268435537" symbol="onBackgroundData"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="6" lineNum="36" pc="268435547" symbol="onBackgroundData"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="6" lineNum="37" pc="268435554" symbol="onBackgroundData"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="6" lineNum="39" pc="268435569" symbol="onBackgroundData"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="7" lineNum="45" pc="268435580" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="7" lineNum="46" pc="268435584" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="7" lineNum="47" pc="268435626" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="7" lineNum="48" pc="268435636" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="7" lineNum="49" pc="268435643" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="7" lineNum="50" pc="268435655" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="7" lineNum="52" pc="268435711" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="8" lineNum="56" pc="268435714" symbol="getServiceDelegate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="8" lineNum="57" pc="268435718" symbol="getServiceDelegate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="9" lineNum="61" pc="268435760" symbol="onStorageChanged"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="9" lineNum="62" pc="268435764" symbol="onStorageChanged"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="9" lineNum="63" pc="268435777" symbol="onStorageChanged"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="9" lineNum="7" pc="268436033" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="10" lineNum="69" pc="268436052" symbol="handleStorageUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayApp.mc" id="10" lineNum="70" pc="268436064" symbol="handleStorageUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="38" pc="268436120" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="40" pc="268436124" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="44" pc="268436142" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="46" pc="268436149" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="47" pc="268436174" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="48" pc="268436188" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="51" pc="268436201" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="54" pc="268436217" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="55" pc="268436248" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="59" pc="268436282" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="60" pc="268436298" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="61" pc="268436307" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="65" pc="268436316" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="68" pc="268436350" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="12" lineNum="70" pc="268436379" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="74" pc="268436424" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="77" pc="268436428" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="78" pc="268436453" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="79" pc="268436467" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="82" pc="268436480" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="86" pc="268436496" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="87" pc="268436527" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="91" pc="268436558" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="94" pc="268436592" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="13" lineNum="96" pc="268436621" symbol="onShow"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="104" pc="268436666" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="105" pc="268436670" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="106" pc="268436684" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="107" pc="268436703" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="109" pc="268436743" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="110" pc="268436753" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="111" pc="268436760" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="112" pc="268436770" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="114" pc="268436777" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="118" pc="268436794" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="121" pc="268436808" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="122" pc="268436822" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="123" pc="268436854" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="124" pc="268436872" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="125" pc="268436887" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="133" pc="268437115" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="136" pc="268437150" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="137" pc="268437165" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="147" pc="268437481" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="157" pc="268437508" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="159" pc="268437508" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="160" pc="268437528" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="162" pc="268437550" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="166" pc="268437563" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="167" pc="268437573" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="168" pc="268437589" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="170" pc="268437599" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="171" pc="268437646" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="175" pc="268437693" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="176" pc="268437717" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="177" pc="268437735" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="178" pc="268437751" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="179" pc="268437770" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="185" pc="268437812" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="187" pc="268437819" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="188" pc="268437837" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="189" pc="268437847" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="190" pc="268437860" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="195" pc="268437883" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="207" pc="268438024" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="220" pc="268438187" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="231" pc="268438350" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="232" pc="268438418" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="233" pc="268438510" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="235" pc="268438560" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="237" pc="268438574" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="238" pc="268438632" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="239" pc="268438765" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="241" pc="268438843" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="242" pc="268438869" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="244" pc="268438881" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="245" pc="268438895" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="246" pc="268438919" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="255" pc="268439004" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="263" pc="268439089" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="14" lineNum="271" pc="268439164" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="15" lineNum="285" pc="268439250" symbol="binaryMode"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="15" lineNum="286" pc="268439254" symbol="binaryMode"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="15" lineNum="287" pc="268439262" symbol="binaryMode"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="15" lineNum="288" pc="268439266" symbol="binaryMode"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="15" lineNum="290" pc="268439292" symbol="binaryMode"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="15" lineNum="291" pc="268439296" symbol="binaryMode"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="15" lineNum="294" pc="268439319" symbol="binaryMode"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="299" pc="268439323" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="300" pc="268439327" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="302" pc="268439353" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="303" pc="268439363" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="304" pc="268439370" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="305" pc="268439380" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="307" pc="268439424" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="308" pc="268439434" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="309" pc="268439441" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="310" pc="268439451" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="311" pc="268439469" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="313" pc="268439488" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="314" pc="268439505" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="315" pc="268439521" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="16" lineNum="316" pc="268439530" symbol="startStopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="17" lineNum="322" pc="268439575" symbol="stopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="17" lineNum="323" pc="268439579" symbol="stopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="17" lineNum="324" pc="268439597" symbol="stopTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="18" lineNum="331" pc="268439614" symbol="resetTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="18" lineNum="332" pc="268439618" symbol="resetTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="18" lineNum="333" pc="268439631" symbol="resetTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="18" lineNum="334" pc="268439640" symbol="resetTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="18" lineNum="335" pc="268439649" symbol="resetTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="18" lineNum="336" pc="268439665" symbol="resetTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="18" lineNum="338" pc="268439671" symbol="resetTimer"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="19" lineNum="343" pc="268439675" symbol="saveProperties"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="19" lineNum="344" pc="268439679" symbol="saveProperties"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="19" lineNum="345" pc="268439711" symbol="saveProperties"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="19" lineNum="346" pc="268439743" symbol="saveProperties"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="20" lineNum="352" pc="268439776" symbol="setBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="20" lineNum="353" pc="268439780" symbol="setBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="20" lineNum="354" pc="268439790" symbol="setBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="20" lineNum="355" pc="268439813" symbol="setBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="20" lineNum="356" pc="268439843" symbol="setBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="20" lineNum="357" pc="268439890" symbol="setBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="20" lineNum="358" pc="268439890" symbol="setBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="20" lineNum="359" pc="268439927" symbol="setBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="21" lineNum="372" pc="268439989" symbol="deleteBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="21" lineNum="373" pc="268439993" symbol="deleteBackgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="22" lineNum="378" pc="268440010" symbol="backgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="22" lineNum="379" pc="268440014" symbol="backgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="22" lineNum="380" pc="268440030" symbol="backgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="22" lineNum="381" pc="268440039" symbol="backgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="22" lineNum="382" pc="268440048" symbol="backgroundEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="23" lineNum="388" pc="268440065" symbol="requestUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="23" lineNum="389" pc="268440069" symbol="requestUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayView.mc" id="23" lineNum="20" pc="268442698" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="25" lineNum="11" pc="268440086" symbol="getIndex"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="25" lineNum="12" pc="268440090" symbol="getIndex"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="25" lineNum="13" pc="268440090" symbol="getIndex"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="25" lineNum="14" pc="268440107" symbol="getIndex"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="25" lineNum="16" pc="268440123" symbol="getIndex"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="25" lineNum="19" pc="268440142" symbol="getIndex"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="22" pc="268440146" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="23" pc="268440150" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="25" pc="268440168" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="26" pc="268440178" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="27" pc="268440188" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="29" pc="268440198" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="30" pc="268440205" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="31" pc="268440229" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="34" pc="268440256" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="35" pc="268440269" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="38" pc="268440292" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="26" lineNum="39" pc="268440305" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="27" lineNum="43" pc="268440322" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="27" lineNum="44" pc="268440326" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="28" lineNum="47" pc="268440474" symbol="getValue"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="28" lineNum="48" pc="268440478" symbol="getValue"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="29" lineNum="51" pc="268440500" symbol="getSize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="29" lineNum="52" pc="268440504" symbol="getSize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\factory\\NumberFactory.mc" id="29" lineNum="4" pc="268442736" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayStorageChangedAlertView.mc" id="31" lineNum="14" pc="268440538" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayStorageChangedAlertView.mc" id="31" lineNum="15" pc="268440542" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayStorageChangedAlertView.mc" id="32" lineNum="20" pc="268440561" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayStorageChangedAlertView.mc" id="32" lineNum="21" pc="268440565" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayStorageChangedAlertView.mc" id="32" lineNum="22" pc="268440601" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayStorageChangedAlertView.mc" id="32" lineNum="23" pc="268440613" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayStorageChangedAlertView.mc" id="32" lineNum="11" pc="268442679" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="34" lineNum="17" pc="268440702" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="34" lineNum="18" pc="268440706" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="34" lineNum="19" pc="268440724" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="35" lineNum="25" pc="268440735" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="35" lineNum="26" pc="268440739" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="35" lineNum="27" pc="268440757" symbol="onSelect"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="36" lineNum="30" pc="268440761" symbol="onPreviousPage"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="37" lineNum="36" pc="268440766" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="37" lineNum="37" pc="268440770" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="37" lineNum="38" pc="268440815" symbol="onNextPage"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="38" lineNum="41" pc="268440819" symbol="onMenu"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="38" lineNum="43" pc="268440823" symbol="onMenu"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="39" lineNum="47" pc="268440836" symbol="onBack"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="40" lineNum="51" pc="268440841" symbol="pushPicker"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="40" lineNum="52" pc="268440845" symbol="pushPicker"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="40" lineNum="53" pc="268440925" symbol="pushPicker"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayDelegate.mc" id="40" lineNum="12" pc="268442592" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="25" pc="268440929" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="26" pc="268440933" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="27" pc="268440949" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="30" pc="268441075" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="32" pc="268441083" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="33" pc="268441134" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="34" pc="268441267" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="35" pc="268441318" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="36" pc="268441451" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="38" pc="268441502" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="41" pc="268441526" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="42" pc="268441568" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="43" pc="268441610" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="42" lineNum="46" pc="268441652" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="43" lineNum="52" pc="268441707" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="43" lineNum="53" pc="268441711" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="43" lineNum="54" pc="268441747" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="43" lineNum="55" pc="268441759" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="61" pc="268441780" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="62" pc="268441784" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="63" pc="268441809" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="64" pc="268441816" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="66" pc="268441826" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="67" pc="268441831" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="68" pc="268441841" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="69" pc="268441857" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="70" pc="268441873" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="71" pc="268441883" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="72" pc="268441893" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="73" pc="268441903" symbol="splitStoredTime"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="44" lineNum="16" pc="268442717" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="46" lineNum="87" pc="268441907" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="46" lineNum="88" pc="268441911" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="47" lineNum="93" pc="268441930" symbol="onCancel"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="47" lineNum="94" pc="268441934" symbol="onCancel"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="47" lineNum="95" pc="268441962" symbol="onCancel"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="48" lineNum="101" pc="268441966" symbol="onAccept"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="48" lineNum="102" pc="268441970" symbol="onAccept"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="48" lineNum="105" pc="268442016" symbol="onAccept"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="48" lineNum="106" pc="268442042" symbol="onAccept"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="48" lineNum="107" pc="268442081" symbol="onAccept"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="48" lineNum="108" pc="268442109" symbol="onAccept"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\picker\\TimePicker.mc" id="48" lineNum="80" pc="268442611" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="50" lineNum="20" pc="268435797" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="50" lineNum="21" pc="268435801" symbol="initialize"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="51" lineNum="27" pc="268435820" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="51" lineNum="30" pc="268435824" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="51" lineNum="31" pc="268435841" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="51" lineNum="33" pc="268435901" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="51" lineNum="37" pc="268435922" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="51" lineNum="38" pc="268435939" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="51" lineNum="41" pc="268435968" symbol="onTemporalEvent"/>
+        <entry filename="C:\\Users\\ola0206\\OneDrive - Vestfold og Telemark fylkeskommune\\eclipse-workspace\\CountdownToTimeOfDay\\source\\CountdownToTimeOfDayBackground.mc" id="51" lineNum="17" pc="268436014" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="54" lineNum="1" pc="268435988" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="60" lineNum="26" pc="268442113" symbol="MainLayout"/>
+        <entry filename="Rez" id="60" lineNum="28" pc="268442125" symbol="MainLayout"/>
+        <entry filename="Rez" id="60" lineNum="29" pc="268442277" symbol="MainLayout"/>
+        <entry filename="Rez" id="60" lineNum="30" pc="268442389" symbol="MainLayout"/>
+        <entry filename="Rez" id="60" lineNum="32" pc="268442429" symbol="MainLayout"/>
+        <entry filename="Rez" id="63" lineNum="46" pc="268442457" symbol="initialize"/>
+        <entry filename="Rez" id="63" lineNum="47" pc="268442461" symbol="initialize"/>
+        <entry filename="Rez" id="63" lineNum="48" pc="268442479" symbol="initialize"/>
+        <entry filename="Rez" id="63" lineNum="49" pc="268442535" symbol="initialize"/>
+        <entry filename="Rez" id="63" lineNum="44" pc="268442656" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="64" lineNum="9" pc="268442630" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389626" method="true" symbol="onAccept"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="49" method="true" symbol="binaryMode"/>
+        <entry id="50" method="true" symbol="startStopTimer"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="61" symbol="formatString"/>
+        <entry id="34" method="true" symbol="MainLayout"/>
+        <entry field="true" id="24" symbol="&lt;globals/CountdownToTimeOfDayDelegate/&lt;&gt;_parentView&gt;"/>
+        <entry field="true" id="43" symbol="&lt;globals/CountdownToTimeOfDayView/&lt;&gt;TIMER_DURATION_DEFAULT&gt;"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry id="4" module="true" symbol="globals/BackgroundRez/Strings"/>
+        <entry field="true" id="27" symbol="&lt;globals/TimePickerDelegate/&lt;&gt;TIMER_KEY_START_TIME&gt;"/>
+        <entry field="true" id="45" symbol="&lt;globals/CountdownToTimeOfDayView/&lt;&gt;_timerStartTime&gt;"/>
+        <entry id="8389629" method="true" symbol="getValue"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="8389287" method="true" symbol="saveProperties"/>
+        <entry id="8391451" module="true" object="true" symbol="BackgroundRez"/>
+        <entry field="true" id="23" symbol="&lt;globals/CountdownToTimeOfDayApp/&lt;&gt;_backgroundData&gt;"/>
+        <entry field="true" id="39" symbol="AppName"/>
+        <entry field="true" id="8389807" symbol="data"/>
+        <entry id="11" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry field="true" id="56" symbol="&lt;globals/TimePicker/&lt;&gt;TIMER_KEY_DURATION&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez"/>
+        <entry id="8390148" method="true" symbol="onTemporalEvent"/>
+        <entry field="true" id="38" symbol="prompt"/>
+        <entry field="true" id="31" symbol="id_monkey"/>
+        <entry id="17" object="true" symbol="CountdownToTimeOfDayDelegate"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="15" object="true" symbol="NumberFactory"/>
+        <entry id="18" object="true" symbol="TimePicker"/>
+        <entry id="3" module="true" symbol="globals/BackgroundRez/JsonData"/>
+        <entry id="8388764" method="true" symbol="format"/>
+        <entry field="true" id="35" symbol="timePickerTitle"/>
+        <entry id="8391338" symbol="toneProfile"/>
+        <entry id="8389026" method="true" symbol="requestUpdate"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry field="true" id="8389348" symbol="font"/>
+        <entry id="8389630" method="true" symbol="getSize"/>
+        <entry id="64" symbol="item_2"/>
+        <entry id="63" symbol="item_1"/>
+        <entry id="8390169" method="true" symbol="getServiceDelegate"/>
+        <entry id="8389079" method="true" symbol="onPreviousPage"/>
+        <entry id="30" module="true" symbol="Menus"/>
+        <entry id="12" object="true" symbol="CountdownToTimeOfDayApp"/>
+        <entry id="9" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="55" method="true" symbol="backgroundEvent"/>
+        <entry id="2" module="true" symbol="globals/BackgroundRez"/>
+        <entry id="8391275" object="true" symbol="ToneProfile"/>
+        <entry field="true" id="41" symbol="&lt;globals/CountdownToTimeOfDayView/&lt;&gt;TIMER_KEY_START_TIME&gt;"/>
+        <entry field="true" id="60" symbol="increment"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="28" symbol="&lt;globals/TimePickerDelegate/&lt;&gt;TIMER_KEY_PAUSE_TIME&gt;"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8388987" method="true" symbol="vibrate"/>
+        <entry id="8389644" symbol="defaults"/>
+        <entry id="19" object="true" symbol="TimePickerDelegate"/>
+        <entry id="10" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="53" method="true" symbol="setBackgroundEvent"/>
+        <entry id="54" method="true" symbol="deleteBackgroundEvent"/>
+        <entry id="6" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8390170" method="true" symbol="onBackgroundData"/>
+        <entry field="true" id="21" symbol="TimerExpired"/>
+        <entry id="33" object="true" symbol="MainMenu"/>
+        <entry field="true" id="8388699" method="true" symbol="stop"/>
+        <entry id="8389628" method="true" symbol="getDrawable"/>
+        <entry field="true" id="44" symbol="&lt;globals/CountdownToTimeOfDayView/&lt;&gt;_timerDuration&gt;"/>
+        <entry field="true" id="57" symbol="&lt;globals/TimePicker/&lt;&gt;TIMER_KEY_START_TIME&gt;"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="32" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389021" method="true" symbol="loadResource"/>
+        <entry field="true" id="48" symbol="timeMode"/>
+        <entry field="true" id="40" symbol="&lt;globals/CountdownToTimeOfDayView/&lt;&gt;TIMER_KEY_DURATION&gt;"/>
+        <entry field="true" id="47" symbol="&lt;globals/CountdownToTimeOfDayView/&lt;&gt;_updateTimer&gt;"/>
+        <entry id="51" method="true" symbol="stopTimer"/>
+        <entry field="true" id="42" symbol="&lt;globals/CountdownToTimeOfDayView/&lt;&gt;TIMER_KEY_PAUSE_TIME&gt;"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="20" object="true" symbol="CountdownToTimeOfDayServiceDelegate"/>
+        <entry id="8389541" method="true" symbol="onCancel"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="14" object="true" symbol="CountdownToTimeOfDayView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="25" method="true" symbol="pushPicker"/>
+        <entry field="true" id="22" symbol="&lt;globals/CountdownToTimeOfDayApp/&lt;&gt;_timerView&gt;"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="8391704" method="true" symbol="onStorageChanged"/>
+        <entry id="59" method="true" symbol="splitStoredTime"/>
+        <entry id="13" method="true" symbol="handleStorageUpdate"/>
+        <entry id="62" method="true" symbol="getIndex"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry field="true" id="58" symbol="&lt;globals/TimePicker/&lt;&gt;TIMER_KEY_PAUSE_TIME&gt;"/>
+        <entry id="29" module="true" symbol="Layouts"/>
+        <entry field="true" id="26" symbol="&lt;globals/TimePickerDelegate/&lt;&gt;TIMER_KEY_DURATION&gt;"/>
+        <entry id="8388636" module="true" symbol="Attention"/>
+        <entry field="true" id="8388698" method="true" symbol="start"/>
+        <entry id="8389643" symbol="pattern"/>
+        <entry id="16" object="true" symbol="CountdownToTimeOfDayStorageChangedAlertView"/>
+        <entry id="8" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8389078" method="true" symbol="onNextPage"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry field="true" id="46" symbol="&lt;globals/CountdownToTimeOfDayView/&lt;&gt;_timerPauseTime&gt;"/>
+        <entry field="true" id="37" symbol="menu_label_2"/>
+        <entry field="true" id="36" symbol="menu_label_1"/>
+        <entry id="52" method="true" symbol="resetTimer"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435483" name="state" stackId="1" startPc="268435479"/>
+        <entry endPc="268435531" name="timerView" stackId="2" startPc="268435488"/>
+        <entry arg="true" endPc="268435532" name="state" stackId="1" startPc="268435484"/>
+        <entry endPc="268435578" name="timerView" stackId="2" startPc="268435537"/>
+        <entry arg="true" endPc="268435579" name="data" stackId="1" startPc="268435533"/>
+        <entry endPc="268435712" name="timerView" stackId="1" startPc="268435584"/>
+        <entry endPc="268436278" name="timerDuration" stackId="2" startPc="268436149"/>
+        <entry arg="true" endPc="268436423" name="backgroundRan" stackId="1" startPc="268436120"/>
+        <entry endPc="268436664" name="timerDuration" stackId="1" startPc="268436428"/>
+        <entry endPc="268437146" name="toneProfile" stackId="7" startPc="268436887"/>
+        <entry endPc="268437498" name="vibrateData" stackId="8" startPc="268437165"/>
+        <entry endPc="268437504" name="timerPauseTime" stackId="6" startPc="268436760"/>
+        <entry endPc="268437798" name="b" stackId="16" startPc="268437735"/>
+        <entry endPc="268437811" name="a" stackId="15" startPc="268437717"/>
+        <entry endPc="268437882" name="y" stackId="18" startPc="268437837"/>
+        <entry endPc="268439000" name="y" stackId="29" startPc="268438919"/>
+        <entry endPc="268439248" name="minuteString" stackId="20" startPc="268436670"/>
+        <entry endPc="268439248" name="countToString" stackId="23" startPc="268436670"/>
+        <entry endPc="268439248" name="secondsString" stackId="21" startPc="268436670"/>
+        <entry endPc="268439248" name="textColor" stackId="2" startPc="268436670"/>
+        <entry endPc="268439248" name="hourFormat" stackId="17" startPc="268436670"/>
+        <entry endPc="268439248" name="timerValue" stackId="9" startPc="268436670"/>
+        <entry endPc="268439248" name="timeString" stackId="22" startPc="268436670"/>
+        <entry endPc="268439248" name="hourString" stackId="19" startPc="268436670"/>
+        <entry endPc="268439248" name="formatLength" stackId="14" startPc="268436670"/>
+        <entry endPc="268439248" name="seconds" stackId="10" startPc="268436670"/>
+        <entry endPc="268439248" name="stringArrayBinary" stackId="26" startPc="268436670"/>
+        <entry endPc="268439248" name="clockValue" stackId="4" startPc="268436670"/>
+        <entry endPc="268439248" name="clockTime" stackId="3" startPc="268436670"/>
+        <entry endPc="268439248" name="timerString" stackId="24" startPc="268436670"/>
+        <entry endPc="268439248" name="yPlacement" stackId="27" startPc="268436670"/>
+        <entry endPc="268439248" name="timerFont" stackId="25" startPc="268436670"/>
+        <entry endPc="268439248" name="fontArray" stackId="28" startPc="268436670"/>
+        <entry endPc="268439248" name="minutes" stackId="11" startPc="268436670"/>
+        <entry endPc="268439248" name="hours" stackId="12" startPc="268436670"/>
+        <entry endPc="268439248" name="timerStartTime" stackId="5" startPc="268436670"/>
+        <entry endPc="268439248" name="formatArray" stackId="13" startPc="268436670"/>
+        <entry arg="true" endPc="268439249" name="dc" stackId="1" startPc="268436666"/>
+        <entry arg="true" endPc="268439322" name="timeMode" stackId="1" startPc="268439250"/>
+        <entry endPc="268439573" name="timerPauseTime" stackId="3" startPc="268439424"/>
+        <entry endPc="268439573" name="now" stackId="1" startPc="268439327"/>
+        <entry endPc="268439573" name="timerStartTime" stackId="2" startPc="268439327"/>
+        <entry endPc="268439944" name="info" stackId="3" startPc="268439890"/>
+        <entry endPc="268439984" name="time" stackId="2" startPc="268439813"/>
+        <entry endPc="268439987" name="timerStartTime" stackId="1" startPc="268439780"/>
+        <entry endPc="268440144" name="index" stackId="2" startPc="268440090"/>
+        <entry arg="true" endPc="268440145" name="value" stackId="1" startPc="268440086"/>
+        <entry arg="true" endPc="268440321" name="increment" stackId="3" startPc="268440146"/>
+        <entry arg="true" endPc="268440321" name="options" stackId="4" startPc="268440146"/>
+        <entry arg="true" endPc="268440321" name="stop" stackId="2" startPc="268440146"/>
+        <entry arg="true" endPc="268440321" name="start" stackId="1" startPc="268440146"/>
+        <entry arg="true" endPc="268440473" name="index" stackId="1" startPc="268440322"/>
+        <entry arg="true" endPc="268440473" name="selected" stackId="2" startPc="268440322"/>
+        <entry arg="true" endPc="268440499" name="index" stackId="1" startPc="268440474"/>
+        <entry arg="true" endPc="268440701" name="dc" stackId="1" startPc="268440561"/>
+        <entry arg="true" endPc="268440734" name="view" stackId="1" startPc="268440702"/>
+        <entry endPc="268441705" name="factories" stackId="2" startPc="268440933"/>
+        <entry endPc="268441705" name="defaults" stackId="3" startPc="268440933"/>
+        <entry endPc="268441705" name="title" stackId="1" startPc="268440933"/>
+        <entry arg="true" endPc="268441779" name="dc" stackId="1" startPc="268441707"/>
+        <entry endPc="268441905" name="hours" stackId="6" startPc="268441784"/>
+        <entry endPc="268441905" name="minutes" stackId="5" startPc="268441784"/>
+        <entry endPc="268441905" name="defaults" stackId="3" startPc="268441784"/>
+        <entry endPc="268441905" name="seconds" stackId="4" startPc="268441784"/>
+        <entry endPc="268441905" name="storedValue" stackId="2" startPc="268441784"/>
+        <entry arg="true" endPc="268441906" name="arraySize" stackId="1" startPc="268441780"/>
+        <entry endPc="268442111" name="time" stackId="2" startPc="268441970"/>
+        <entry arg="true" endPc="268442112" name="values" stackId="1" startPc="268441966"/>
+        <entry endPc="268442455" name="rez_cmp_local_text_7077626074" stackId="2" startPc="268442125"/>
+        <entry endPc="268442455" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268442125"/>
+        <entry arg="true" endPc="268442456" name="dc" stackId="1" startPc="268442113"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="typecheck(disableBackgroundCheck)" class="globals" module="" symbol="handleStorageUpdate"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/BackgroundRez" symbol="TimerExpired"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="TimerExpired"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="timePickerTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="111" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/BackgroundRez" offset="238" parentId="globals" symbolId="BackgroundRez" type="module"/>
+        <dataEntry label="globals/BackgroundRez/JsonData" offset="285" parentId="BackgroundRez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/BackgroundRez/Strings" offset="316" parentId="BackgroundRez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/CountdownToTimeOfDayServiceDelegate" offset="355" parentId="globals" symbolId="CountdownToTimeOfDayServiceDelegate" type="class"/>
+        <dataEntry label="globals/CountdownToTimeOfDayApp" offset="410" parentId="globals" symbolId="CountdownToTimeOfDayApp" type="class"/>
+        <dataEntry label="globals/CountdownToTimeOfDayDelegate" offset="989" parentId="globals" symbolId="CountdownToTimeOfDayDelegate" type="class"/>
+        <dataEntry label="globals/TimePickerDelegate" offset="1092" parentId="globals" symbolId="TimePickerDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="1179" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1258" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1305" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1344" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1391" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1422" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1461" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1492" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/CountdownToTimeOfDayStorageChangedAlertView" offset="1571" parentId="globals" symbolId="CountdownToTimeOfDayStorageChangedAlertView" type="class"/>
+        <dataEntry label="globals/CountdownToTimeOfDayView" offset="1626" parentId="globals" symbolId="CountdownToTimeOfDayView" type="class"/>
+        <dataEntry label="globals/TimePicker" offset="1833" parentId="globals" symbolId="TimePicker" type="class"/>
+        <dataEntry label="globals/NumberFactory" offset="1928" parentId="globals" symbolId="NumberFactory" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="CountdownToTimeOfDayApp">
+            <documentation>
+                <![CDATA[<div class="description"> Constructor<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="CountdownToTimeOfDayApp">
+            <param id="state"/>
+            <documentation>
+                <![CDATA[<div class="description"> Handle app startup<br/> <div class="param"> state Startup arguments</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="CountdownToTimeOfDayApp">
+            <param id="state"/>
+            <documentation>
+                <![CDATA[<div class="description"> Handle app shutdown<br/> <div class="param"> state Shutdown arguments</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onBackgroundData" parent="CountdownToTimeOfDayApp">
+            <param id="data"/>
+            <documentation>
+                <![CDATA[<div class="description"> Handle data passed from a background service delegate to the app<br/> <div class="param"> data The data passed from the background process</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="CountdownToTimeOfDayApp">
+            <documentation>
+                <![CDATA[<div class="description"> Return the initial view for the app<br/> <div class="returns">Returns  Array Pair [View, Delegate]</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getServiceDelegate" parent="CountdownToTimeOfDayApp">
+            <documentation>
+                <![CDATA[<div class="description"> Get service delegates to run background tasks for the app<br/> <div class="returns">Returns  An array of service delegates to run background tasks</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStorageChanged" parent="CountdownToTimeOfDayApp">
+            <documentation>
+                <![CDATA[<div class="description"> Handle a storage update<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="handleStorageUpdate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="CountdownToTimeOfDayView">
+            <param id="backgroundRan"/>
+            <documentation>
+                <![CDATA[<div class="description"> Initialize variables for this view<br/> <div class="param"> backgroundRan Contains background data if background ran</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="CountdownToTimeOfDayView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="CountdownToTimeOfDayView">
+            <param id="dc"/>
+            <documentation>
+                <![CDATA[<div class="description"> Draw the time remaining on the timer to the display<br/> <div class="param"> dc Device Context</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="binaryMode" parent="CountdownToTimeOfDayView">
+            <param id="timeMode"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="startStopTimer" parent="CountdownToTimeOfDayView">
+            <documentation>
+                <![CDATA[<div class="description"> If the timer is running, pause it. Otherwise, start it up.<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="stopTimer" parent="CountdownToTimeOfDayView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="resetTimer" parent="CountdownToTimeOfDayView">
+            <documentation>
+                <![CDATA[<div class="description"> If the timer is paused, then go ahead and reset it back to the default time.<br/> <div class="returns">Returns  true if timer is reset, false otherwise</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="saveProperties" parent="CountdownToTimeOfDayView">
+            <documentation>
+                <![CDATA[<div class="description"> Save all the persisted values into the object store. This gets<br/> called by the Application base before the application shuts down.<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="setBackgroundEvent" parent="CountdownToTimeOfDayView">
+            <documentation>
+                <![CDATA[<div class="description"> Set up a background event to occur when the timer expires. This<br/> will alert the user that the timer has expired even if the<br/> application does not remain open.<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="deleteBackgroundEvent" parent="CountdownToTimeOfDayView">
+            <documentation>
+                <![CDATA[<div class="description"> Delete the background event. We can get rid of this event when the<br/> application opens because now we can see exactly when the timer<br/> is going to expire. We will set it again when the application closes.<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="backgroundEvent" parent="CountdownToTimeOfDayView">
+            <documentation>
+                <![CDATA[<div class="description"> If we do receive a background event while the application is open,<br/> go ahead and reset to the default timer.<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="requestUpdate" parent="CountdownToTimeOfDayView">
+            <documentation>
+                <![CDATA[<div class="description"> This is the callback method we use for our timer. It is<br/> only needed to request display updates as the timer counts<br/> down so we see the updated time on the display.<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getIndex" parent="NumberFactory">
+            <param id="value"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="NumberFactory">
+            <param id="start"/>
+            <param id="stop"/>
+            <param id="increment"/>
+            <param id="options"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getDrawable" parent="NumberFactory">
+            <param id="index"/>
+            <param id="selected"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getValue" parent="NumberFactory">
+            <param id="index"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getSize" parent="NumberFactory">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="CountdownToTimeOfDayStorageChangedAlertView">
+            <documentation>
+                <![CDATA[<div class="description"> Constructor<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="CountdownToTimeOfDayStorageChangedAlertView">
+            <param id="dc"/>
+            <documentation>
+                <![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device Context</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="CountdownToTimeOfDayDelegate">
+            <param id="view"/>
+            <documentation>
+                <![CDATA[<div class="description"> Constructor<br/> <div class="param"> view The app view</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSelect" parent="CountdownToTimeOfDayDelegate">
+            <documentation>
+                <![CDATA[<div class="description"> Call the start stop timer method on the parent view<br/> when the select action occurs (start/stop button on most products)<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onPreviousPage" parent="CountdownToTimeOfDayDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onNextPage" parent="CountdownToTimeOfDayDelegate">
+            <documentation>
+                <![CDATA[<div class="description"> Call the reset method on the parent view when the<br/> back action occurs.<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onMenu" parent="CountdownToTimeOfDayDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onBack" parent="CountdownToTimeOfDayDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="pushPicker" parent="CountdownToTimeOfDayDelegate">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="TimePicker">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="TimePicker">
+            <param id="dc"/>
+            <documentation>
+                <![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device Context</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="splitStoredTime" parent="TimePicker">
+            <param id="arraySize"/>
+            <documentation>
+                <![CDATA[<div class="description"> Get the stored time in an array<br/> <div class="param"> factoryCount Number of factories used to make the time</div><br/> <div class="returns">Returns  Array with the stored time</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="TimePickerDelegate">
+            <documentation>
+                <![CDATA[<div class="description"> Constructor<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onCancel" parent="TimePickerDelegate">
+            <documentation>
+                <![CDATA[<div class="description"> Handle a cancel event from the picker<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onAccept" parent="TimePickerDelegate">
+            <param id="values"/>
+            <documentation>
+                <![CDATA[<div class="description"> Handle a confirm event from the picker<br/> <div class="param"> values The values chosen in the picker</div><br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="CountdownToTimeOfDayServiceDelegate">
+            <documentation>
+                <![CDATA[<div class="description"> Constructor<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onTemporalEvent" parent="CountdownToTimeOfDayServiceDelegate">
+            <documentation>
+                <![CDATA[<div class="description"> If our timer expires, it means the application timer ran out,<br/> and the main application is not open. Prompt the user to let them<br/> know the timer expired.<br/></div>]]>
+            </documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="MainMenu">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
