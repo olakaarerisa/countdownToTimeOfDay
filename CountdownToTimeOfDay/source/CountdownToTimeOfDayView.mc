@@ -13,25 +13,32 @@ import Toybox.Lang;
 import Toybox.Time;
 import Toybox.Timer;
 import Toybox.WatchUi;
+import Toybox.Math;
 
 //! The main view for the timer application. This displays the
 //! remaining time on the countdown timer
 (:typecheck(disableBackgroundCheck))
 class CountdownToTimeOfDayView extends WatchUi.View {
-
+	
+	var mainFont = null;
+	var smallFont = null;
+	var biggerFont = null;
+	var biggestFont = null;
+	var space = 2;
+	
     private enum TimerKeys {
         TIMER_KEY_DURATION,
-        TIMER_KEY_START_TIME,
-        TIMER_KEY_PAUSE_TIME
+       
     }
 
-    private const TIMER_DURATION_DEFAULT = (16 * 3600);    // 5 minutes
+    private const TIMER_DURATION_DEFAULT = (16 * 3600);
 
     private var _timerDuration as Number;
-    private var _timerStartTime as Number?;
-    private var _timerPauseTime as Number?;
+    
     private var _updateTimer as Timer.Timer;
-    public var timeMode = true;
+    public var timeMode = 2;
+    
+    var modeIcon;
 
     //! Initialize variables for this view
     //! @param backgroundRan Contains background data if background ran
@@ -39,11 +46,13 @@ class CountdownToTimeOfDayView extends WatchUi.View {
     	
         View.initialize();
         
-
-        // Fetch the persisted values from storage
-        if (backgroundRan == null) {
-        	
-            var timerDuration = Storage.getValue(TIMER_KEY_DURATION);
+        for(var a = 0; a < Math.floor(Math.log(70,2)); a++) {
+        	System.println(a);
+        }
+        
+        modeIcon = WatchUi.loadResource(Rez.Drawables.ModeIcon);
+        
+		 var timerDuration = Storage.getValue(TIMER_KEY_DURATION);
             if (timerDuration instanceof Number) {
                 _timerDuration = timerDuration;
             
@@ -51,24 +60,41 @@ class CountdownToTimeOfDayView extends WatchUi.View {
                 _timerDuration = TIMER_DURATION_DEFAULT;
                 
             }
-            _timerStartTime = Storage.getValue(TIMER_KEY_START_TIME);
-            _timerPauseTime = Storage.getValue(TIMER_KEY_PAUSE_TIME);
-        } else {
-            // If we got an expiration event from the background process
-            // when we started up, reset the timer back to the default value.
-            _timerDuration = TIMER_DURATION_DEFAULT;
-            _timerStartTime = null;
-            _timerPauseTime = null;
-        }
-
+		
+        // Fetch the persisted values from storage
+       
         // Create our timer object that is used to drive display updates
         _updateTimer = new Timer.Timer();
-
-        // If the timer is running, we need to start the timer up now.
-        if ((_timerStartTime != null) && (_timerPauseTime == null)) {
-            // Update the display each second.
-            _updateTimer.start(method(:requestUpdate), 1000, true);
-        }
+		
+		_updateTimer.start(method(:requestUpdate), 1000, true);
+		
+        
+    }
+    
+    function onLayout(dc) {
+        System.println(dc.getHeight());
+        if (dc.getHeight() > 260) {
+       		mainFont = WatchUi.loadResource(Rez.Fonts.digital48Font);
+       		biggerFont = WatchUi.loadResource(Rez.Fonts.digital70Font);
+       		biggestFont = WatchUi.loadResource(Rez.Fonts.digital80Font);
+       		smallFont = WatchUi.loadResource(Rez.Fonts.digital26Font);
+       	} else if (dc.getHeight() > 240){
+       		mainFont = WatchUi.loadResource(Rez.Fonts.digital54Font);
+       		biggerFont = WatchUi.loadResource(Rez.Fonts.digital65Font);
+       		biggestFont = WatchUi.loadResource(Rez.Fonts.digital70Font);
+       		smallFont = WatchUi.loadResource(Rez.Fonts.digital22Font);
+       	} else if (dc.getHeight() > 220){
+       		mainFont = WatchUi.loadResource(Rez.Fonts.digital50Font);
+       		smallFont = WatchUi.loadResource(Rez.Fonts.digital20Font);
+       	} else if (dc.getHeight() > 210) {
+       		mainFont = WatchUi.loadResource(Rez.Fonts.digital42Font);
+       		smallFont = WatchUi.loadResource(Rez.Fonts.digital17Font);
+       	} else {
+       		mainFont = WatchUi.loadResource(Rez.Fonts.digital36Font);
+       		biggerFont = WatchUi.loadResource(Rez.Fonts.digital60Font);
+       		biggestFont = WatchUi.loadResource(Rez.Fonts.digital65Font);
+       		smallFont = WatchUi.loadResource(Rez.Fonts.digital20Font);
+      	}
     }
     
 	public function onShow() as Void {
@@ -83,18 +109,7 @@ class CountdownToTimeOfDayView extends WatchUi.View {
            
         }
         
-		_timerStartTime = Storage.getValue(TIMER_KEY_START_TIME);
-        _timerPauseTime = Storage.getValue(TIMER_KEY_PAUSE_TIME);
 		
-
-        // Create our timer object that is used to drive display updates
-        _updateTimer = new Timer.Timer();
-
-        // If the timer is running, we need to start the timer up now.
-        if ((_timerStartTime != null) && (_timerPauseTime == null)) {
-            // Update the display each second.
-            _updateTimer.start(method(:requestUpdate), 1000, true);
-        }
 		
 	}
 	
@@ -102,53 +117,48 @@ class CountdownToTimeOfDayView extends WatchUi.View {
     //! Draw the time remaining on the timer to the display
     //! @param dc Device Context
     public function onUpdate(dc as Dc) as Void {
+       
         var textColor = Graphics.COLOR_WHITE;
 		var clockTime = System.getClockTime();
 		var clockValue = clockTime.hour*3600 + clockTime.min*60 + clockTime.sec;
         
-        var timerStartTime = _timerStartTime;
-        if (timerStartTime != null) {
-            var timerPauseTime = _timerPauseTime;
-            if (timerPauseTime != null) {
-                // Draw the time in yellow if the timer is paused
-                textColor = Graphics.COLOR_YELLOW;
-              
-            }
+        
 
-            if (clockValue == _timerDuration) {
+        if (clockValue == _timerDuration) {
                 
                 // Draw the time in red if the timer has expired
-                textColor = Graphics.COLOR_RED;
-                _timerPauseTime = Time.now().value();
-                _updateTimer.stop();
-                if (Attention has :ToneProfile) {
-    				var toneProfile =
+        	textColor = Graphics.COLOR_RED;
+           
+            
+            if (Attention has :ToneProfile) {
+    			var toneProfile =
     				[
-        				new Attention.ToneProfile( 2500, 250),
-        				new Attention.ToneProfile( 5000, 250),
-        				new Attention.ToneProfile(10000, 250),
-        				new Attention.ToneProfile( 5000, 250),
-        				new Attention.ToneProfile( 2500, 250),
+        			new Attention.ToneProfile( 2500, 250),
+        			new Attention.ToneProfile( 5000, 250),
+        			new Attention.ToneProfile(10000, 250),
+        			new Attention.ToneProfile( 5000, 250),
+        			new Attention.ToneProfile( 2500, 250),
     				];
     				Attention.playTone({:toneProfile=>toneProfile});
-				}
+			}
 				
-				if (Attention has :vibrate) {
-                var vibrateData = [
-                        new Attention.VibeProfile(25, 100),
-                        new Attention.VibeProfile(50, 100),
-                        new Attention.VibeProfile(75, 100),
-                        new Attention.VibeProfile(100, 100),
-                        new Attention.VibeProfile(75, 100),
-                        new Attention.VibeProfile(50, 100),
-                        new Attention.VibeProfile(25, 100)
-                      ] as Array<VibeProfile>;
+			if (Attention has :vibrate) {
+                var vibrateData =
+                	[
+                    new Attention.VibeProfile(25, 100),
+                    new Attention.VibeProfile(50, 100),
+                    new Attention.VibeProfile(75, 100),
+                    new Attention.VibeProfile(100, 100),
+                    new Attention.VibeProfile(75, 100),
+                    new Attention.VibeProfile(50, 100),
+                    new Attention.VibeProfile(25, 100)
+                    ] as Array<VibeProfile>;
 
                 Attention.vibrate(vibrateData);
                 
-                }
             }
         }
+        
 		
 		
      
@@ -181,30 +191,53 @@ class CountdownToTimeOfDayView extends WatchUi.View {
         }
         
         
- 
-        var hourFormat = "";
-        
-        for(var y = 0; y < 5; y ++) {
-        	hourFormat += "$";
-        	hourFormat += y+1;
-        	hourFormat += "$";
-        }
-        
+ 		var hourFormat = "";
+ 		var minuteFormat = "";
+ 		var secondFormat = "";
+ 		
+       	if (hours < 2) {
+	      	hourFormat = "$6$"; 
+      	} else if (hours < 4) {
+	  		hourFormat = "$5$$6$";
+		} else if (hours < 8) {
+	 		hourFormat = "$4$$5$$6$";
+     	} else if (hours < 16) {
+	 		hourFormat = "$3$$4$$5$$6$";
+     	} else if (hours < 32) {
+	 		hourFormat = "$2$$3$$4$$5$$6$";
+       	} else {
+	    	hourFormat = "$1$$2$$3$$4$$5$$6$";
+       	}
     
-
-        var hourString = Lang.format(formatArray[0],
+    	var hourString = Lang.format(hourFormat,
         	[
+        	hours / 32 % 2,
         	hours / 16 % 2,
         	hours / 8 % 2,
         	hours / 4 % 2,
         	hours / 2 % 2,
         	hours /1 % 2
         	]
-        ); 
+        );
+    	
+		
+		
+        if (minutes < 2) {
+	      	minuteFormat = "$6$"; 
+      	} else if (minutes < 4) {
+	  		minuteFormat = "$5$$6$";
+		} else if (minutes < 8) {
+	 		minuteFormat = "$4$$5$$6$";
+     	} else if (minutes < 16) {
+	 		minuteFormat = "$3$$4$$5$$6$";
+     	} else if (minutes < 32) {
+	 		minuteFormat = "$2$$3$$4$$5$$6$";
+       	} else {
+	    	minuteFormat = "$1$$2$$3$$4$$5$$6$";
+       	}
         
-
-
-        var minuteString = Lang.format(formatArray[1],
+		
+        var minuteString = Lang.format(minuteFormat,
         	[
         	minutes / 32 % 2,
         	minutes / 16 % 2,
@@ -215,9 +248,21 @@ class CountdownToTimeOfDayView extends WatchUi.View {
         	]
         ); 
         
+		if (seconds < 2) {
+	      	secondFormat = "$6$"; 
+      	} else if (seconds < 4) {
+	  		secondFormat = "$5$$6$";
+		} else if (seconds < 8) {
+	 		secondFormat = "$4$$5$$6$";
+     	} else if (seconds < 16) {
+	 		secondFormat = "$3$$4$$5$$6$";
+     	} else if (seconds < 32) {
+	 		secondFormat = "$2$$3$$4$$5$$6$";
+       	} else {
+	    	secondFormat = "$1$$2$$3$$4$$5$$6$";
+       	}
 
-
-        var secondsString = Lang.format(formatArray[2],
+        var secondsString = Lang.format(secondFormat,
         	[
         	seconds / 32 % 2,
         	seconds / 16 % 2,
@@ -228,20 +273,62 @@ class CountdownToTimeOfDayView extends WatchUi.View {
         	]
         ); 
         
+        var stats = System.getSystemStats();
+        var pwr = (stats.battery + 0.5).toLong();
+        var pwrString = pwr;
+        
         var timeString = clockTime.hour + ":" + clockTime.min.format("%02d") + ":" + clockTime.sec.format("%02d");
         var countToString = _timerDuration / 3600 + ":" + (_timerDuration / 60 % 60).format("%02d") + ":" + (_timerDuration % 60).format("%02d");
-        var timerString = hours + ":" + minutes.format("%02d") + ":" + seconds.format("%02d");
+        var timerString;
+        
+        if (timerValue < 60) {
+        	timerString = seconds;
+        } else if (timerValue < 3600) {
+        	timerString = minutes + ":" + seconds.format("%02d");
+        } else {
+        	timerString = hours + ":" + minutes.format("%02d") + ":" + seconds.format("%02d");
+        }
+        
 		
 		var timerFont = Graphics.FONT_NUMBER_MEDIUM;
 		
+		/*
+		var min_x = dc.getWidth()/2;
+       	var hour_x = min_x;
+       	var sec_x = min_x;
+       	var day_x = min_x;
+       	var battery_x = min_x;
+       	var min_y = dc.getHeight()/2 - dc.getFontHeight(mainFont)/2;
+       	var hour_y = min_y - dc.getFontHeight(mainFont)-space;
+       	var day_y = min_y + dc.getFontHeight(mainFont)+space;
+       	var sec_y = day_y + dc.getFontHeight(mainFont)+space;
+       	var battery_y = hour_y - dc.getFontHeight(smallFont)-space;
+		*/
+		
+		
+		
+		var minY = dc.getHeight()/2;
+        var secY = minY + dc.getFontHeight(mainFont)+space;
+        var hourY = minY - dc.getFontHeight(mainFont)-space;
+        var timeSetY = secY + dc.getFontHeight(mainFont)-dc.getFontHeight(smallFont)+space*4;
+        var clockY = hourY - dc.getFontHeight(smallFont)*2;
+        var finishedY = minY + dc.getFontHeight(mainFont) + dc.getFontHeight(smallFont);
+        var pwrY = clockY - dc.getFontHeight(smallFont)-space;
+		
 		var stringArrayBinary = [timeString,hourString,minuteString,secondsString,countToString];
-		var yPlacement = [dc.getHeight()*0.10, dc.getHeight()*0.28, dc.getHeight()*0.5, dc.getHeight()*0.72, dc.getHeight()*0.90];
-		var fontArray = [Graphics.FONT_TINY, timerFont, timerFont, timerFont, Graphics.FONT_TINY];
+		var yPlacement = [clockY, hourY, minY, secY, timeSetY];
+		var fontArray = [smallFont, mainFont, mainFont, mainFont, smallFont];
+		var rest_width;
+        var rest_height;
+        var rectangle_width;
+        var rectangle_height;
 		
         dc.setColor(textColor, Graphics.COLOR_BLACK);
         dc.clear();
         
-        if (timeMode == true) {
+        
+        
+        if (timeMode == 0) {
         	for(var y=0; y<stringArrayBinary.size(); y++) {
         		dc.drawText(
             		dc.getWidth() / 2,
@@ -251,72 +338,147 @@ class CountdownToTimeOfDayView extends WatchUi.View {
             		Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         		);
         	}	
-        } else {
+        } else if (timeMode == 2) {
         	dc.drawText(
             		dc.getWidth() / 2,
-           			dc.getHeight()*0.10,
-            		Graphics.FONT_TINY,
+           			dc.getHeight()*0.20,
+            		smallFont,
             		timeString,
             		Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         	);
         	
-        	dc.drawText(
+        	if (timerValue < 60) {
+        		dc.drawText(
             		dc.getWidth() / 2,
            			dc.getHeight()/2,
-            		timerFont,
+            		biggestFont,
             		timerString,
             		Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
-        	);
+        		);
+        	} else if (timerValue < 3600) {
+        		dc.drawText(
+            		dc.getWidth() / 2,
+           			dc.getHeight()/2,
+            		biggerFont,
+            		timerString,
+            		Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+        		);
+        	} else {
+        		dc.drawText(
+            		dc.getWidth() / 2,
+           			dc.getHeight()/2,
+            		mainFont,
+            		timerString,
+            		Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+        		);
+        	}
+        	
+        	
         	
         	dc.drawText(
             		dc.getWidth() / 2,
-           			dc.getHeight()*0.90,
-            		Graphics.FONT_TINY,
+           			dc.getHeight()*0.80,
+            		smallFont,
             		countToString,
             		Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
         	);
         
+        } else {
+        	rest_width = (dc.getWidth() - 2) % 3;
+       		if ((dc.getHeight() - 5) % 6 > 4) {
+       			rest_height = 3;
+       		} else if ((dc.getHeight() - 5) % 6 > 2) {
+       			rest_height = 2;
+       		} else {
+       			rest_height = 1;
+       		}
+       		rectangle_width = (dc.getWidth()-2)/3 + rest_width;
+       		rectangle_height = (dc.getHeight()-5)/6 + rest_height;
+			
+			
+			
+       		dc.setColor(textColor, Graphics.COLOR_BLACK);
+       		//draw hourrectangles
+    		for(var x = 0; x < 1; x ++) {
+    			for(var y = 0; y < 6; y ++)	{
+					dc.drawRectangle(x*(rectangle_width+1)-rest_width, y*(rectangle_height+1) - rest_height, rectangle_width, rectangle_height);
+  				}
+    		}
+       		
+       		//show hours
+    		for(var i = 0; i < 5; i ++) {
+    			if ( hours / (Math.pow(2,4-i).toLong()) % 2 == 1) {
+    				dc.fillRectangle(-rest_width, (i+1)*(rectangle_height+1)-rest_height, rectangle_width, rectangle_height-1);
+    			}
+	    	}
+    		
+    		//draw minuterectangles
+    		for(var x = 1; x < 2; x ++) {
+    			for(var y = 0; y < 6; y ++)	{
+					dc.drawRectangle(x*(rectangle_width+1)-rest_width, y*(rectangle_height+1) - rest_height, rectangle_width, rectangle_height);
+  				}
+    		}
+    		//show minute
+    		for(var i = 0; i < 6; i ++) {
+    			if ( minutes / (Math.pow(2,5-i).toLong()) % 2 == 1) {
+       				dc.fillRectangle(rectangle_width+1-rest_width, (i)*(rectangle_height+1)-rest_height, rectangle_width, rectangle_height-1);
+    			}
+    		}
+    		
+    		
+    		//draw daterectangles
+    		for(var x = 2; x < 3; x ++) {
+    			for(var y = 0; y < 6; y ++)	{
+					dc.drawRectangle(x*(rectangle_width+1)-rest_width, y*(rectangle_height+1) - rest_height, rectangle_width, rectangle_height);
+  				}
+    		}
+    		
+    		//show day
+    		for(var i = 0; i < 6; i ++)	{
+    			if ( seconds / (Math.pow(2,5-i).toLong()) % 2 == 1)	{
+    				dc.fillRectangle(2*(rectangle_width+1)-rest_width, (i)*(rectangle_height+1)-rest_height, rectangle_width, rectangle_height-1);
+    			}
+    		}
         }
         
         
-     
+      //dc.drawBitmap(10, 165, modeIcon);
+      
+      	// draw battery
+      	dc.setPenWidth(1);
+        var rectangleWidth = dc.getWidth()*0.14;
+        var batteryWidth = rectangleWidth * pwr / 100;
+        var rectangleHeight = rectangleWidth*13/42;
+        var rectangle_x = dc.getWidth()/2 - rectangleWidth/2;
+        var rectangle_y = dc.getHeight()*0.02;
+        var line_x1 = rectangle_x + rectangleWidth;
+        var line_y1 = rectangle_y + rectangleHeight * 0.5; 
+        var line_x2 = rectangle_x + rectangleWidth;
+        var line_y2 = rectangle_y + rectangleHeight * 0.6;
+        
+        dc.drawRectangle(rectangle_x, rectangle_y, rectangleWidth, rectangleHeight);
+       	dc.fillRectangle(rectangle_x + 2, rectangle_y + 2, batteryWidth - 4, rectangleHeight - 4);
+       	dc.setPenWidth(4);
+       	dc.drawLine(line_x1, line_y1, line_x2, line_y2);
     }
 	
 	public function binaryMode(timeMode) {
-		if (timeMode == true) {
-			timeMode = false;
-			System.println("binmode off");
+		if (timeMode < 2) {
+			timeMode += 1;
 		} else {
-			timeMode = true;
-			System.println("binmode on");
+			timeMode = 0;
 		}
-		
+		WatchUi.requestUpdate();
 		return timeMode;
 	}
 	
-	
+	 public function resetTimer() as Boolean {
+        
+    }
     //! If the timer is running, pause it. Otherwise, start it up.
     public function startStopTimer() as Void {
-        var now = Time.now().value();
-
-        var timerStartTime = _timerStartTime;
-        if (timerStartTime == null) {
-            _timerStartTime = now;
-            _updateTimer.start(method(:requestUpdate), 1000, true);
-        } else {
-            var timerPauseTime = _timerPauseTime;
-            if (timerPauseTime == null) {
-                _timerPauseTime = now;
-                _updateTimer.stop();
-                WatchUi.requestUpdate();
-            } else {
-                if ((timerPauseTime - timerStartTime) < _timerDuration) {
-                    _timerStartTime = timerStartTime + (now - timerPauseTime);
-                    _timerPauseTime = null;
-                    _updateTimer.start(method(:requestUpdate), 1000, true);
-                }
-            }
-        }
+        _updateTimer.start(method(:requestUpdate), 1000, true);
+        
     }
     
     public function stopTimer() as Void {
@@ -328,42 +490,20 @@ class CountdownToTimeOfDayView extends WatchUi.View {
 
     //! If the timer is paused, then go ahead and reset it back to the default time.
     //! @return true if timer is reset, false otherwise
-    public function resetTimer() as Boolean {
-        if (_timerPauseTime != null) {
-            _timerStartTime = null;
-            _timerPauseTime = null;
-            WatchUi.requestUpdate();
-            return true;
-        }
-        return false;
-    }
+    
 
     //! Save all the persisted values into the object store. This gets
     //! called by the Application base before the application shuts down.
     public function saveProperties() as Void {
         Storage.setValue(TIMER_KEY_DURATION, _timerDuration);
-        Storage.setValue(TIMER_KEY_START_TIME, _timerStartTime);
-        Storage.setValue(TIMER_KEY_PAUSE_TIME, _timerPauseTime);
+        
     }
 
     //! Set up a background event to occur when the timer expires. This
     //! will alert the user that the timer has expired even if the
     //! application does not remain open.
     public function setBackgroundEvent() as Void {
-        var timerStartTime = _timerStartTime;
-        if ((timerStartTime != null) && (_timerPauseTime == null)) {
-            var time = new Time.Moment(timerStartTime);
-            time = time.add(new Time.Duration(_timerDuration));
-            try {
-                var info = Time.Gregorian.info(time, Time.FORMAT_SHORT);
-                Background.registerForTemporalEvent(time);
-            } catch (e instanceof Background.InvalidBackgroundTimeException) {
-                // We shouldn't get here because our timer is 5 minutes, which
-                // matches the minimum background time. If we do get here,
-                // then it is not possible to set an event at the time when
-                // the timer is going to expire because we ran too recently.
-            }
-        }
+        
     }
 
     //! Delete the background event. We can get rid of this event when the
@@ -376,10 +516,7 @@ class CountdownToTimeOfDayView extends WatchUi.View {
     //! If we do receive a background event while the application is open,
     //! go ahead and reset to the default timer.
     public function backgroundEvent() as Void {
-        _timerDuration = TIMER_DURATION_DEFAULT;
-        _timerStartTime = null;
-        _timerPauseTime = null;
-        WatchUi.requestUpdate();
+        
     }
 
     //! This is the callback method we use for our timer. It is

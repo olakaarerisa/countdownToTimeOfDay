@@ -1,3 +1,5 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="StartIcon" filename="start43.png" />
+    <bitmap id="ModeIcon" filename="mode43.png" />
 </drawables>

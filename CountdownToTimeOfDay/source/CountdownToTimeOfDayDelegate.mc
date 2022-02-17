@@ -33,14 +33,16 @@ class CountdownToTimeOfDayDelegate extends WatchUi.BehaviorDelegate {
      //! Call the reset method on the parent view when the
     //! back action occurs.
     //! @return true if handled, false otherwise
+    /*
     public function onNextPage() as Boolean {
          _parentView.timeMode = _parentView.binaryMode(_parentView.timeMode);
         return true;
     }
-
+	*/
    	public function onMenu() as Boolean {
-        
-        return pushPicker();
+        _parentView.resetTimer();
+        pushPicker();
+        return true;
     }
    	
    	
